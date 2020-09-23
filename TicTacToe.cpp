@@ -21,9 +21,16 @@ void DisplayBoard(std::string** my2DArray){
   }
 }
 
+int GetPlayerChoice(){
+  std::string choice;
+  std::cout << "What is your choice?" << std::endl;
+  getline(std::cin, choice);
+  return stoi(choice);
+}
+
 void PlaceMarker(int row, int col, std::string marker, std::string** my2DArray){
   my2DArray[row][col] = marker;
-} 
+}
 
 
 int main(){
