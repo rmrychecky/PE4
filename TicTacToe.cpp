@@ -12,6 +12,16 @@ std::string** CreateBoard(){
   return board;
 }
 
+void DisplayBoard(std::string arr[3][3]){
+  for(int i = 0; i < 3; i++){
+    for(int x = 0; x < 3; x++){
+      std::cout << arr[i][x];
+    }
+    std::cout << std::endl;
+  }
+}
+
+
 int main(){
   CreateBoard();
   return 0;
