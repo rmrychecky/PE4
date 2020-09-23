@@ -36,5 +36,20 @@ void PlaceMarker(int row, int col, std::string marker, std::string** my2DArray){
 int main(){
   std::string** my2DArray = CreateBoard();
   DisplayBoard(my2DArray);
+  std::string player = "X";
+  for(int i = 0; i < 9; i++){
+    std::cout << "row:" << std::endl;
+    int row = GetPlayerChoice();
+    std::cout << "col:" << std::endl;
+    int col = GetPlayerChoice();
+    PlaceMarker(row, col, player, my2DArray);
+    if(player == "X"){
+      player = "O";
+    }else{
+      player = "X";
+    }
+    DisplayBoard(my2DArray);
+  }
+  std::cout << "Game Over" << std::endl;
   return 0;
 }
