@@ -12,14 +12,19 @@ std::string** CreateBoard(){
   return board;
 }
 
-void DisplayBoard(std::string** array){
+void DisplayBoard(std::string** my2DArray){
   for (int h = 0; h < 3; h++){
     for (int w = 0; w < 3; w++){
-      std::cout << array[h][w];
+      std::cout << my2DArray[h][w];
     }
     std::cout << std::endl;
   }
 }
+
+void PlaceMarker(int row, int col, std::string marker, std::string** my2DArray){
+  my2DArray[row][col] = marker;
+} 
+
 
 int main(){
   std::string** my2DArray = CreateBoard();
