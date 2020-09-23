@@ -1,0 +1,83 @@
+row:
+What is your choice?
+0
+col:
+What is your choice?
+0
+X
+
+
+row:
+What is your choice?
+0
+col:
+What is your choice?
+1
+
+XO
+
+
+row:
+What is your choice?
+0
+col:
+What is your choice?
+2
+XOX
+
+
+row:
+What is your choice?
+1
+col:
+What is your choice?
+0
+XOX
+O
+
+row:
+What is your choice?
+1
+col:
+What is your choice?
+1
+XOX
+OX
+row:
+What is your choice?
+1
+col:
+What is your choice?
+2
+
+XOX
+OXO
+
+row:
+What is your choice?
+2
+col:
+What is your choice?
+0
+XOX
+OXO
+X
+row:
+What is your choice?
+2
+col:
+What is your choice?
+1
+XOX
+OXO
+XO
+row:
+What is your choice?
+2
+col:
+What is your choice?
+2
+XOX
+OXO
+XOX
+Game Over
