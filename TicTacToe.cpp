@@ -21,6 +21,13 @@ void DisplayBoard(std::string** array){
   }
 }
 
+int GetPlayerChoice(){
+  std::string choice;
+  std::cout << "What is your choice?" << std::endl;
+  getline(std::cin, choice);
+  return stoi(choice);
+}
+
 int main(){
   std::string** my2DArray = CreateBoard();
   DisplayBoard(my2DArray);
