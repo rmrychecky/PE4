@@ -12,17 +12,17 @@ std::string** CreateBoard(){
   return board;
 }
 
-void DisplayBoard(std::string arr[3][3]){
-  for(int i = 0; i < 3; i++){
-    for(int x = 0; x < 3; x++){
-      std::cout << arr[i][x];
+void DisplayBoard(std::string** array){
+  for (int h = 0; h < 3; h++){
+    for (int w = 0; w < 3; w++){
+      std::cout << array[h][w];
     }
     std::cout << std::endl;
   }
 }
 
-
 int main(){
-  CreateBoard();
+  std::string** my2DArray = CreateBoard();
+  DisplayBoard(my2DArray);
   return 0;
 }
