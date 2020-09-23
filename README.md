@@ -1,4 +1,4 @@
-# PE4
+# PE4 - git & version control (part 2)
 
 Person 1: Lincoln Rychecky 
 Person 2: Raegan Rychecky 
